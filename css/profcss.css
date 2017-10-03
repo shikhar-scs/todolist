@@ -5,7 +5,7 @@ html,body{
     background-attachment: fixed;
     /*height:100%;*/
     /*width:100%;*/
-    background: url(../images/stage.jpg) center center no-repeat ;
+    background: url(../images/stage.jpg) top center no-repeat ;
     background-size: cover;
     color:black;
 }
