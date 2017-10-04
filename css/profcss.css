@@ -1,27 +1,26 @@
 
 html,body{
     height:100%;
-    width:100%
+    width:100%;
     background-attachment: fixed;
     /*height:100%;*/
     /*width:100%;*/
     background: url(../images/stage.jpg) top center no-repeat ;
     background-size: cover;
+
     color:black;
 }
 .fa:hover{
     cursor: pointer;
 }
-.yo{
+.yo {
     color: white;
 }
-#stage {
-    height:100%;
-    width:100%;
-    /*background: url(../images/stars.jpg) center center no-repeat ;*/
-    /*background-size: cover;*/
-    /*color:black;*/
-}
+/*}*/
+/*#stage {*/
+    /*height:100%;*/
+    /*width:100%;*/
+/*}*/
 
 
 

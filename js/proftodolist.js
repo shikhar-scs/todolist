@@ -42,7 +42,7 @@ window.onload = function () {
     function addListItem(todoValue,done,id){
         let newListItem = document.createElement('li');
         newListItem.setAttribute('data-id',id);
-        newListItem.className = 'list-group-item row';
+        newListItem.className = 'list-group-item row just';
 
         let checkBox = document.createElement('input');
         checkBox.className = 'col-1 col-sm-1';
@@ -58,15 +58,15 @@ window.onload = function () {
             checkBox.onchange = strikeSpan;}
 
         let deleteBtn = document.createElement('i');
-        deleteBtn.className = 'ml-5 col-1 col-sm-1 fa fa-times';
+        deleteBtn.className = 'ml-5 col-1 fa fa-times';
         deleteBtn.onclick = deleteTodo;
 
         let moveUpBtn = document.createElement('i');
-        moveUpBtn.className = 'ml-5 col-1 col-sm-1 fa fa-chevron-up';
+        moveUpBtn.className = 'ml-5 col-1 fa fa-chevron-up';
         moveUpBtn.onclick = moveuptodo;
 
         let moveDownBtn = document.createElement('i');
-        moveDownBtn.className = 'ml-5 col-1 col-sm-1 fa fa-chevron-down';
+        moveDownBtn.className = 'ml-5 col-1 fa fa-chevron-down';
         moveDownBtn.onclick = movedowntodo;
 
         newListItem.appendChild(checkBox);
